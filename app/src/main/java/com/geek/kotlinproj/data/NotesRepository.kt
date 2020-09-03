@@ -4,7 +4,7 @@ import com.geek.kotlinproj.data.entity.Note
 
 object NotesRepository {
 
-    private val notes: List<Note> = listOf(
+    val notes: List<Note> = listOf(
         Note(
             "Первая заметка",
             "Текст первой заметки. Не очень длинный, но интересный",
@@ -36,5 +36,5 @@ object NotesRepository {
             0xffffeb3b.toInt()
         )
     )
-    
+
 }
